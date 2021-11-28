@@ -26,6 +26,6 @@ def preprocessing(input_file):
     plt.title("HAM-Red | SPAM-Purple")
     plt.show();
     
-    classifier = Pipeline([("tfidf", TfidfVectorizer()), ("classifier", RandomForestClassifier(n_estimators = 10))])
+    classifier = Pipeline([("tfidf", TfidfVectorizer()), ("classifier", RandomForestClassifier(n_estimators = 100))])
 
 preprocessing("C:\marios\datasets\spam.tsv")
