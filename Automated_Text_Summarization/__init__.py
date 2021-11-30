@@ -1,0 +1,1 @@
+name = "Automated Text Summarization"
